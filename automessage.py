@@ -33,7 +33,7 @@ time.sleep(5)
 
 # Digitar o número do destinatário
 campo_numero = driver.find_element(By.TAG_NAME, 'input')
-campo_numero.send_keys('842289861')
+campo_numero.send_keys('numero de contacto')
 time.sleep(5)
 
 # Clicar para selecionar o contato
